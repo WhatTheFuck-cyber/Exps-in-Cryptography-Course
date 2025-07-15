@@ -1,0 +1,644 @@
+
+##---------- 测试用例: 1.1CFB-TDES(Encryption) ----------##
+场景: 1.1CFB-TDES(Encryption)
+明文: 6B
+加密得到的密文: 5C
+预期密文: 5C
+整体验证: 通过
+
+Segment 1:
+实际的InputBlock:  F69F2445DF4F9B17
+实际的OutputBlock: 6C4A09AC778EE140
+实际的Plaintext:   0
+实际的Ciphertext:  0
+块验证结果: 通过
+
+Segment 2:
+实际的InputBlock:  ED3E488BBE9F362E
+实际的OutputBlock: 2FBAD0503CEB5412
+实际的Plaintext:   1
+实际的Ciphertext:  1
+块验证结果: 通过
+
+Segment 3:
+实际的InputBlock:  DA7C91177D3E6C5D
+实际的OutputBlock: BE9A7EB4DA9131E1
+实际的Plaintext:   1
+实际的Ciphertext:  0
+块验证结果: 通过
+
+Segment 4:
+实际的InputBlock:  B4F9222EFA7CD8BA
+实际的OutputBlock: 986D65A98F72D62F
+实际的Plaintext:   0
+实际的Ciphertext:  1
+块验证结果: 通过
+
+Segment 5:
+实际的InputBlock:  69F2445DF4F9B175
+实际的OutputBlock: 6D87A6C542C50EB6
+实际的Plaintext:   1
+实际的Ciphertext:  1
+块验证结果: 通过
+
+Segment 6:
+实际的InputBlock:  D3E488BBE9F362EB
+实际的OutputBlock: EDD759BC745036D7
+实际的Plaintext:   0
+实际的Ciphertext:  1
+块验证结果: 通过
+
+Segment 7:
+实际的InputBlock:  A7C91177D3E6C5D7
+实际的OutputBlock: DE45381CF86ADC5F
+实际的Plaintext:   1
+实际的Ciphertext:  0
+块验证结果: 通过
+
+Segment 8:
+实际的InputBlock:  4F9222EFA7CD8BAE
+实际的OutputBlock: A41E3F9F5329A6F5
+实际的Plaintext:   1
+实际的Ciphertext:  0
+块验证结果: 通过
+
+##---------- 测试用例: 1.2CFB-TDES(Decryption) ----------##
+场景: 1.2CFB-TDES(Decryption)
+密文: 5C
+解密得到的明文: 6B
+预期明文: 6B
+整体验证: 通过
+
+Segment 1:
+实际的InputBlock:  F69F2445DF4F9B17
+实际的OutputBlock: 6C4A09AC778EE140
+实际的Plaintext:   0
+实际的Ciphertext:  0
+块验证结果: 通过
+
+Segment 2:
+实际的InputBlock:  ED3E488BBE9F362E
+实际的OutputBlock: 2FBAD0503CEB5412
+实际的Plaintext:   1
+实际的Ciphertext:  1
+块验证结果: 通过
+
+Segment 3:
+实际的InputBlock:  DA7C91177D3E6C5D
+实际的OutputBlock: BE9A7EB4DA9131E1
+实际的Plaintext:   1
+实际的Ciphertext:  0
+块验证结果: 通过
+
+Segment 4:
+实际的InputBlock:  B4F9222EFA7CD8BA
+实际的OutputBlock: 986D65A98F72D62F
+实际的Plaintext:   0
+实际的Ciphertext:  1
+块验证结果: 通过
+
+Segment 5:
+实际的InputBlock:  69F2445DF4F9B175
+实际的OutputBlock: 6D87A6C542C50EB6
+实际的Plaintext:   1
+实际的Ciphertext:  1
+块验证结果: 通过
+
+Segment 6:
+实际的InputBlock:  D3E488BBE9F362EB
+实际的OutputBlock: EDD759BC745036D7
+实际的Plaintext:   0
+实际的Ciphertext:  1
+块验证结果: 通过
+
+Segment 7:
+实际的InputBlock:  A7C91177D3E6C5D7
+实际的OutputBlock: DE45381CF86ADC5F
+实际的Plaintext:   1
+实际的Ciphertext:  0
+块验证结果: 通过
+
+Segment 8:
+实际的InputBlock:  4F9222EFA7CD8BAE
+实际的OutputBlock: A41E3F9F5329A6F5
+实际的Plaintext:   1
+实际的Ciphertext:  0
+块验证结果: 通过
+
+##---------- 测试用例: 2.1CFB-TDES(Encryption) ----------##
+场景: 2.1CFB-TDES(Encryption)
+明文: 6BC1BEE22E409F96
+加密得到的密文: 07951B729DC23AB4
+预期密文: 07951B729DC23AB4
+整体验证: 通过
+
+Segment 1:
+实际的InputBlock:  F69F2445DF4F9B17
+实际的OutputBlock: 6C4A09AC778EE140
+实际的Plaintext:   6B
+实际的Ciphertext:  07
+块验证结果: 通过
+
+Segment 2:
+实际的InputBlock:  9F2445DF4F9B1707
+实际的OutputBlock: 549B701C6F79E12F
+实际的Plaintext:   C1
+实际的Ciphertext:  95
+块验证结果: 通过
+
+Segment 3:
+实际的InputBlock:  2445DF4F9B170795
+实际的OutputBlock: A54A6F7ED46328D6
+实际的Plaintext:   BE
+实际的Ciphertext:  1B
+块验证结果: 通过
+
+Segment 4:
+实际的InputBlock:  45DF4F9B1707951B
+实际的OutputBlock: 90540AC276832F20
+实际的Plaintext:   E2
+实际的Ciphertext:  72
+块验证结果: 通过
+
+Segment 5:
+实际的InputBlock:  DF4F9B1707951B72
+实际的OutputBlock: B3FCFC0C2B4792F2
+实际的Plaintext:   2E
+实际的Ciphertext:  9D
+块验证结果: 通过
+
+Segment 6:
+实际的InputBlock:  4F9B1707951B729D
+实际的OutputBlock: 828C80DEA7E31594
+实际的Plaintext:   40
+实际的Ciphertext:  C2
+块验证结果: 通过
+
+Segment 7:
+实际的InputBlock:  9B1707951B729DC2
+实际的OutputBlock: A5CB99BF469D1281
+实际的Plaintext:   9F
+实际的Ciphertext:  3A
+块验证结果: 通过
+
+Segment 8:
+实际的InputBlock:  1707951B729DC23A
+实际的OutputBlock: 2226EAE7D45A1ED7
+实际的Plaintext:   96
+实际的Ciphertext:  B4
+块验证结果: 通过
+
+##---------- 测试用例: 2.2CFB-TDES(Decryption) ----------##
+场景: 2.2CFB-TDES(Decryption)
+密文: 07951B729DC23AB4
+解密得到的明文: 6BC1BEE22E409F96
+预期明文: 6BC1BEE22E409F96
+整体验证: 通过
+
+Segment 1:
+实际的InputBlock:  F69F2445DF4F9B17
+实际的OutputBlock: 6C4A09AC778EE140
+实际的Plaintext:   6B
+实际的Ciphertext:  07
+块验证结果: 通过
+
+Segment 2:
+实际的InputBlock:  9F2445DF4F9B1707
+实际的OutputBlock: 549B701C6F79E12F
+实际的Plaintext:   C1
+实际的Ciphertext:  95
+块验证结果: 通过
+
+Segment 3:
+实际的InputBlock:  2445DF4F9B170795
+实际的OutputBlock: A54A6F7ED46328D6
+实际的Plaintext:   BE
+实际的Ciphertext:  1B
+块验证结果: 通过
+
+Segment 4:
+实际的InputBlock:  45DF4F9B1707951B
+实际的OutputBlock: 90540AC276832F20
+实际的Plaintext:   E2
+实际的Ciphertext:  72
+块验证结果: 通过
+
+Segment 5:
+实际的InputBlock:  DF4F9B1707951B72
+实际的OutputBlock: B3FCFC0C2B4792F2
+实际的Plaintext:   2E
+实际的Ciphertext:  9D
+块验证结果: 通过
+
+Segment 6:
+实际的InputBlock:  4F9B1707951B729D
+实际的OutputBlock: 828C80DEA7E31594
+实际的Plaintext:   40
+实际的Ciphertext:  C2
+块验证结果: 通过
+
+Segment 7:
+实际的InputBlock:  9B1707951B729DC2
+实际的OutputBlock: A5CB99BF469D1281
+实际的Plaintext:   9F
+实际的Ciphertext:  3A
+块验证结果: 通过
+
+Segment 8:
+实际的InputBlock:  1707951B729DC23A
+实际的OutputBlock: 2226EAE7D45A1ED7
+实际的Plaintext:   96
+实际的Ciphertext:  B4
+块验证结果: 通过
+
+##---------- 测试用例: 3.1CFB-TDES(Encryption) ----------##
+场景: 3.1CFB-TDES(Encryption)
+明文: 6BC1BEE22E409F96E93D7E117393172AAE2D8A571E03AC9C9EB76FAC45AF8E51
+加密得到的密文: 078BB74E59CE7ED67666DE9CF95EAF3FE9ED6BB460F451528A5F9FE4ED710918
+预期密文: 078BB74E59CE7ED67666DE9CF95EAF3FE9ED6BB460F451528A5F9FE4ED710918
+整体验证: 通过
+
+Segment 1:
+实际的InputBlock:  F69F2445DF4F9B17
+实际的OutputBlock: 6C4A09AC778EE140
+实际的Plaintext:   6BC1BEE22E409F96
+实际的Ciphertext:  078BB74E59CE7ED6
+块验证结果: 通过
+
+Segment 2:
+实际的InputBlock:  078BB74E59CE7ED6
+实际的OutputBlock: 9F5BA08D8ACDB815
+实际的Plaintext:   E93D7E117393172A
+实际的Ciphertext:  7666DE9CF95EAF3F
+块验证结果: 通过
+
+Segment 3:
+实际的InputBlock:  7666DE9CF95EAF3F
+实际的OutputBlock: 47C0E1E37EF7FDCE
+实际的Plaintext:   AE2D8A571E03AC9C
+实际的Ciphertext:  E9ED6BB460F45152
+块验证结果: 通过
+
+Segment 4:
+实际的InputBlock:  E9ED6BB460F45152
+实际的OutputBlock: 14E8F048A8DE8749
+实际的Plaintext:   9EB76FAC45AF8E51
+实际的Ciphertext:  8A5F9FE4ED710918
+块验证结果: 通过
+
+##---------- 测试用例: 3.2CFB-TDES(Decryption) ----------##
+场景: 3.2CFB-TDES(Decryption)
+密文: 078BB74E59CE7ED67666DE9CF95EAF3FE9ED6BB460F451528A5F9FE4ED710918
+解密得到的明文: 6BC1BEE22E409F96E93D7E117393172AAE2D8A571E03AC9C9EB76FAC45AF8E51
+预期明文: 6BC1BEE22E409F96E93D7E117393172AAE2D8A571E03AC9C9EB76FAC45AF8E51
+整体验证: 通过
+
+Segment 1:
+实际的InputBlock:  F69F2445DF4F9B17
+实际的OutputBlock: 6C4A09AC778EE140
+实际的Plaintext:   6BC1BEE22E409F96
+实际的Ciphertext:  078BB74E59CE7ED6
+块验证结果: 通过
+
+Segment 2:
+实际的InputBlock:  078BB74E59CE7ED6
+实际的OutputBlock: 9F5BA08D8ACDB815
+实际的Plaintext:   E93D7E117393172A
+实际的Ciphertext:  7666DE9CF95EAF3F
+块验证结果: 通过
+
+Segment 3:
+实际的InputBlock:  7666DE9CF95EAF3F
+实际的OutputBlock: 47C0E1E37EF7FDCE
+实际的Plaintext:   AE2D8A571E03AC9C
+实际的Ciphertext:  E9ED6BB460F45152
+块验证结果: 通过
+
+Segment 4:
+实际的InputBlock:  E9ED6BB460F45152
+实际的OutputBlock: 14E8F048A8DE8749
+实际的Plaintext:   9EB76FAC45AF8E51
+实际的Ciphertext:  8A5F9FE4ED710918
+块验证结果: 通过
+
+##---------- 测试用例: 4.1CFB-TDES(Encryption) ----------##
+场景: 4.1CFB-TDES(Encryption)
+明文: 6B
+加密得到的密文: 66
+预期密文: 66
+整体验证: 通过
+
+Segment 1:
+实际的InputBlock:  F69F2445DF4F9B17
+实际的OutputBlock: 0A540720EDD99653
+实际的Plaintext:   0
+实际的Ciphertext:  0
+块验证结果: 通过
+
+Segment 2:
+实际的InputBlock:  ED3E488BBE9F362E
+实际的OutputBlock: 5DB181E586EFE4EB
+实际的Plaintext:   1
+实际的Ciphertext:  1
+块验证结果: 通过
+
+Segment 3:
+实际的InputBlock:  DA7C91177D3E6C5D
+实际的OutputBlock: 646D31A0DC8A7579
+实际的Plaintext:   1
+实际的Ciphertext:  1
+块验证结果: 通过
+
+Segment 4:
+实际的InputBlock:  B4F9222EFA7CD8BB
+实际的OutputBlock: 3BC130FDCEE8ACF5
+实际的Plaintext:   0
+实际的Ciphertext:  0
+块验证结果: 通过
+
+Segment 5:
+实际的InputBlock:  69F2445DF4F9B176
+实际的OutputBlock: EADA0BA2AEDA060E
+实际的Plaintext:   1
+实际的Ciphertext:  0
+块验证结果: 通过
+
+Segment 6:
+实际的InputBlock:  D3E488BBE9F362EC
+实际的OutputBlock: A3F96AFE9BD123FA
+实际的Plaintext:   0
+实际的Ciphertext:  1
+块验证结果: 通过
+
+Segment 7:
+实际的InputBlock:  A7C91177D3E6C5D9
+实际的OutputBlock: 1B39FBE2D035FFCA
+实际的Plaintext:   1
+实际的Ciphertext:  1
+块验证结果: 通过
+
+Segment 8:
+实际的InputBlock:  4F9222EFA7CD8BB3
+实际的OutputBlock: AB2826279BF068CC
+实际的Plaintext:   1
+实际的Ciphertext:  0
+块验证结果: 通过
+
+##---------- 测试用例: 4.2CFB-TDES(Decryption) ----------##
+场景: 4.2CFB-TDES(Decryption)
+密文: 66
+解密得到的明文: 6B
+预期明文: 6B
+整体验证: 通过
+
+Segment 1:
+实际的InputBlock:  F69F2445DF4F9B17
+实际的OutputBlock: 0A540720EDD99653
+实际的Plaintext:   0
+实际的Ciphertext:  0
+块验证结果: 通过
+
+Segment 2:
+实际的InputBlock:  ED3E488BBE9F362E
+实际的OutputBlock: 5DB181E586EFE4EB
+实际的Plaintext:   1
+实际的Ciphertext:  1
+块验证结果: 通过
+
+Segment 3:
+实际的InputBlock:  DA7C91177D3E6C5D
+实际的OutputBlock: 646D31A0DC8A7579
+实际的Plaintext:   1
+实际的Ciphertext:  1
+块验证结果: 通过
+
+Segment 4:
+实际的InputBlock:  B4F9222EFA7CD8BB
+实际的OutputBlock: 3BC130FDCEE8ACF5
+实际的Plaintext:   0
+实际的Ciphertext:  0
+块验证结果: 通过
+
+Segment 5:
+实际的InputBlock:  69F2445DF4F9B176
+实际的OutputBlock: EADA0BA2AEDA060E
+实际的Plaintext:   1
+实际的Ciphertext:  0
+块验证结果: 通过
+
+Segment 6:
+实际的InputBlock:  D3E488BBE9F362EC
+实际的OutputBlock: A3F96AFE9BD123FA
+实际的Plaintext:   0
+实际的Ciphertext:  1
+块验证结果: 通过
+
+Segment 7:
+实际的InputBlock:  A7C91177D3E6C5D9
+实际的OutputBlock: 1B39FBE2D035FFCA
+实际的Plaintext:   1
+实际的Ciphertext:  1
+块验证结果: 通过
+
+Segment 8:
+实际的InputBlock:  4F9222EFA7CD8BB3
+实际的OutputBlock: AB2826279BF068CC
+实际的Plaintext:   1
+实际的Ciphertext:  0
+块验证结果: 通过
+
+##---------- 测试用例: 5.1CFB-TDES(Encryption) ----------##
+场景: 5.1CFB-TDES(Encryption)
+明文: 6BC1BEE22E409F96
+加密得到的密文: 61D86D9AEE9693FD
+预期密文: 61D86D9AEE9693FD
+整体验证: 通过
+
+Segment 1:
+实际的InputBlock:  F69F2445DF4F9B17
+实际的OutputBlock: 0A540720EDD99653
+实际的Plaintext:   6B
+实际的Ciphertext:  61
+块验证结果: 通过
+
+Segment 2:
+实际的InputBlock:  9F2445DF4F9B1761
+实际的OutputBlock: 1945D01CC907BB02
+实际的Plaintext:   C1
+实际的Ciphertext:  D8
+块验证结果: 通过
+
+Segment 3:
+实际的InputBlock:  2445DF4F9B1761D8
+实际的OutputBlock: D35BBB588942DFDD
+实际的Plaintext:   BE
+实际的Ciphertext:  6D
+块验证结果: 通过
+
+Segment 4:
+实际的InputBlock:  45DF4F9B1761D86D
+实际的OutputBlock: 784F700FC357E253
+实际的Plaintext:   E2
+实际的Ciphertext:  9A
+块验证结果: 通过
+
+Segment 5:
+实际的InputBlock:  DF4F9B1761D86D9A
+实际的OutputBlock: C0D6CB0C186B591C
+实际的Plaintext:   2E
+实际的Ciphertext:  EE
+块验证结果: 通过
+
+Segment 6:
+实际的InputBlock:  4F9B1761D86D9AEE
+实际的OutputBlock: D6E571D3C0FF2B27
+实际的Plaintext:   40
+实际的Ciphertext:  96
+块验证结果: 通过
+
+Segment 7:
+实际的InputBlock:  9B1761D86D9AEE96
+实际的OutputBlock: 0C42BEBDDB7CCFA3
+实际的Plaintext:   9F
+实际的Ciphertext:  93
+块验证结果: 通过
+
+Segment 8:
+实际的InputBlock:  1761D86D9AEE9693
+实际的OutputBlock: 6B9A60FEB302F83F
+实际的Plaintext:   96
+实际的Ciphertext:  FD
+块验证结果: 通过
+
+##---------- 测试用例: 5.2CFB-TDES(Decryption) ----------##
+场景: 5.2CFB-TDES(Decryption)
+密文: 61D86D9AEE9693FD
+解密得到的明文: 6BC1BEE22E409F96
+预期明文: 6BC1BEE22E409F96
+整体验证: 通过
+
+Segment 1:
+实际的InputBlock:  F69F2445DF4F9B17
+实际的OutputBlock: 0A540720EDD99653
+实际的Plaintext:   6B
+实际的Ciphertext:  61
+块验证结果: 通过
+
+Segment 2:
+实际的InputBlock:  9F2445DF4F9B1761
+实际的OutputBlock: 1945D01CC907BB02
+实际的Plaintext:   C1
+实际的Ciphertext:  D8
+块验证结果: 通过
+
+Segment 3:
+实际的InputBlock:  2445DF4F9B1761D8
+实际的OutputBlock: D35BBB588942DFDD
+实际的Plaintext:   BE
+实际的Ciphertext:  6D
+块验证结果: 通过
+
+Segment 4:
+实际的InputBlock:  45DF4F9B1761D86D
+实际的OutputBlock: 784F700FC357E253
+实际的Plaintext:   E2
+实际的Ciphertext:  9A
+块验证结果: 通过
+
+Segment 5:
+实际的InputBlock:  DF4F9B1761D86D9A
+实际的OutputBlock: C0D6CB0C186B591C
+实际的Plaintext:   2E
+实际的Ciphertext:  EE
+块验证结果: 通过
+
+Segment 6:
+实际的InputBlock:  4F9B1761D86D9AEE
+实际的OutputBlock: D6E571D3C0FF2B27
+实际的Plaintext:   40
+实际的Ciphertext:  96
+块验证结果: 通过
+
+Segment 7:
+实际的InputBlock:  9B1761D86D9AEE96
+实际的OutputBlock: 0C42BEBDDB7CCFA3
+实际的Plaintext:   9F
+实际的Ciphertext:  93
+块验证结果: 通过
+
+Segment 8:
+实际的InputBlock:  1761D86D9AEE9693
+实际的OutputBlock: 6B9A60FEB302F83F
+实际的Plaintext:   96
+实际的Ciphertext:  FD
+块验证结果: 通过
+
+##---------- 测试用例: 6.1CFB-TDES(Encryption) ----------##
+场景: 6.1CFB-TDES(Encryption)
+明文: 6BC1BEE22E409F96E93D7E117393172AAE2D8A571E03AC9C9EB76FAC45AF8E51
+加密得到的密文: 6195B9C2C39909C52EF313667B5A66AF688672A3993AEAE55B931AE24EE24C5C
+预期密文: 6195B9C2C39909C52EF313667B5A66AF688672A3993AEAE55B931AE24EE24C5C
+整体验证: 通过
+
+Segment 1:
+实际的InputBlock:  F69F2445DF4F9B17
+实际的OutputBlock: 0A540720EDD99653
+实际的Plaintext:   6BC1BEE22E409F96
+实际的Ciphertext:  6195B9C2C39909C5
+块验证结果: 通过
+
+Segment 2:
+实际的InputBlock:  6195B9C2C39909C5
+实际的OutputBlock: C7CE6D7708C97185
+实际的Plaintext:   E93D7E117393172A
+实际的Ciphertext:  2EF313667B5A66AF
+块验证结果: 通过
+
+Segment 3:
+实际的InputBlock:  2EF313667B5A66AF
+实际的OutputBlock: C6ABF8F487394679
+实际的Plaintext:   AE2D8A571E03AC9C
+实际的Ciphertext:  688672A3993AEAE5
+块验证结果: 通过
+
+Segment 4:
+实际的InputBlock:  688672A3993AEAE5
+实际的OutputBlock: C524754E0B4DC20D
+实际的Plaintext:   9EB76FAC45AF8E51
+实际的Ciphertext:  5B931AE24EE24C5C
+块验证结果: 通过
+
+##---------- 测试用例: 6.2CFB-TDES(Decryption) ----------##
+场景: 6.2CFB-TDES(Decryption)
+密文: 6195B9C2C39909C52EF313667B5A66AF688672A3993AEAE55B931AE24EE24C5C
+解密得到的明文: 6BC1BEE22E409F96E93D7E117393172AAE2D8A571E03AC9C9EB76FAC45AF8E51
+预期明文: 6BC1BEE22E409F96E93D7E117393172AAE2D8A571E03AC9C9EB76FAC45AF8E51
+整体验证: 通过
+
+Segment 1:
+实际的InputBlock:  F69F2445DF4F9B17
+实际的OutputBlock: 0A540720EDD99653
+实际的Plaintext:   6BC1BEE22E409F96
+实际的Ciphertext:  6195B9C2C39909C5
+块验证结果: 通过
+
+Segment 2:
+实际的InputBlock:  6195B9C2C39909C5
+实际的OutputBlock: C7CE6D7708C97185
+实际的Plaintext:   E93D7E117393172A
+实际的Ciphertext:  2EF313667B5A66AF
+块验证结果: 通过
+
+Segment 3:
+实际的InputBlock:  2EF313667B5A66AF
+实际的OutputBlock: C6ABF8F487394679
+实际的Plaintext:   AE2D8A571E03AC9C
+实际的Ciphertext:  688672A3993AEAE5
+块验证结果: 通过
+
+Segment 4:
+实际的InputBlock:  688672A3993AEAE5
+实际的OutputBlock: C524754E0B4DC20D
+实际的Plaintext:   9EB76FAC45AF8E51
+实际的Ciphertext:  5B931AE24EE24C5C
+块验证结果: 通过

@@ -1,0 +1,30 @@
+[
+    {
+        "label": "test_number or generation_number is invalid if less than 1",
+        "test_number": 1,
+        "generation_number": 0,
+        "z1": "27bede74",
+        "z2": "018082da"
+    },
+    {
+        "label": "test_number or generation_number is invalid if less than 1",
+        "test_number": 2,
+        "generation_number": 0,
+        "z1": "0657cfa0",
+        "z2": "7096398b"
+    },
+    {
+        "label": "test_number or generation_number is invalid if less than 1",
+        "test_number": 0,
+        "generation_number": 1,
+        "z1": "14f1c272",
+        "z2": "3279c419"
+    },
+    {
+        "label": "test_number or generation_number is invalid if less than 1",
+        "test_number": 0,
+        "generation_number": 2,
+        "z1": "1999cd5d",
+        "z2": "8c45505f"
+    }
+]

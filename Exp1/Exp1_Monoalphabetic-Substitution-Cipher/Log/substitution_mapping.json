@@ -1,0 +1,34 @@
+{
+  "mapping form": "plain_text ：cipher_text",
+  "mapping": {
+    "t": "Z",
+    "h": "I",
+    "e": "T",
+    "m": "D",
+    "b": "W",
+    "l": "S",
+    "o": "G",
+    "f": "Y",
+    "s": "L",
+    "u": "X",
+    "n": "F",
+    "y": "N",
+    "a": "Q",
+    "i": "O",
+    "v": "C",
+    "r": "K",
+    "c": "E",
+    "p": "H",
+    "g": "U",
+    "d": "R",
+    "w": "V",
+    "k": "A",
+    "q": "J",
+    "z": "M"
+  },
+  "unused_letters": [
+    "j",
+    "x"
+  ],
+  "说明": "unused_letters 表示在明文中未出现的字母（不区分大小写）"
+}

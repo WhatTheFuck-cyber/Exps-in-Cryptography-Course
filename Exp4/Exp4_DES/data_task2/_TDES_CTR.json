@@ -1,0 +1,158 @@
+[
+  {
+    "场景": "1.1 CTR-TDES (Encryption)",
+    "Key1": "01234567 89ABCDEF",
+    "Key2": "23456789 ABCDEF01",
+    "Key3": "456789AB CDEF0123",
+    "InitialCounterValue": "F69F2445 DF4F9B17",
+    "Plaintext": "6BC1BEE2 2E409F96 E93D7E11 7393172A \n AE2D8A57 1E03AC9C 9EB76FAC 45AF8E51",
+    "Ciphertext": "078BB74E 59CE7ED6 19AA11D2 5004FB65 \n A03CEDF1 BA0B09BA A3BC81B8 F69C1DA9",
+    "Blocks": [
+      {
+        "编号": 1,
+        "InputBlock": "F69F2445 DF4F9B17",
+        "OutputBlock": "6C4A09AC 778EE140",
+        "TextIn": "6BC1BEE2 2E409F96",
+        "TextOut": "078BB74E 59CE7ED6"
+      },
+      {
+        "编号": 2,
+        "InputBlock": "F69F2445 DF4F9B18",
+        "OutputBlock": "F0976FC3 2397EC4F",
+        "TextIn": "E93D7E11 7393172A",
+        "TextOut": "19AA11D2 5004FB65"
+      },
+      {
+        "编号": 3,
+        "InputBlock": "F69F2445 DF4F9B19",
+        "OutputBlock": "0E1167A6 A408A526",
+        "TextIn": "AE2D8A57 1E03AC9C",
+        "TextOut": "A03CEDF1 BA0B09BA"
+      },
+      {
+        "编号": 4,
+        "InputBlock": "F69F2445 DF4F9B1A",
+        "OutputBlock": "3D0BEE14 B33393F8",
+        "TextIn": "9EB76FAC 45AF8E51",
+        "TextOut": "A3BC81B8 F69C1DA9"
+      }
+    ]
+  },
+  {
+    "场景": "1.2 CTR-TDES (Decryption)",
+    "Key1": "01234567 89ABCDEF",
+    "Key2": "23456789 ABCDEF01",
+    "Key3": "456789AB CDEF0123",
+    "InitialCounterValue": "F69F2445 DF4F9B17",
+    "Ciphertext": "078BB74E 59CE7ED6 19AA11D2 5004FB65 \n A03CEDF1 BA0B09BA A3BC81B8 F69C1DA9",
+    "Plaintext": "6BC1BEE2 2E409F96 E93D7E11 7393172A \n AE2D8A57 1E03AC9C 9EB76FAC 45AF8E51",
+    "Blocks": [
+      {
+        "编号": 1,
+        "InputBlock": "F69F2445 DF4F9B17",
+        "OutputBlock": "6C4A09AC 778EE140",
+        "TextIn": "078BB74E 59CE7ED6",
+        "TextOut": "6BC1BEE2 2E409F96"
+      },
+      {
+        "编号": 2,
+        "InputBlock": "F69F2445 DF4F9B18",
+        "OutputBlock": "F0976FC3 2397EC4F",
+        "TextIn": "19AA11D2 5004FB65",
+        "TextOut": "E93D7E11 7393172A"
+      },
+      {
+        "编号": 3,
+        "InputBlock": "F69F2445 DF4F9B19",
+        "OutputBlock": "0E1167A6 A408A526",
+        "TextIn": "A03CEDF1 BA0B09BA",
+        "TextOut": "AE2D8A57 1E03AC9C"
+      },
+      {
+        "编号": 4,
+        "InputBlock": "F69F2445 DF4F9B1A",
+        "OutputBlock": "3D0BEE14 B33393F8",
+        "TextIn": "A3BC81B8 F69C1DA9",
+        "TextOut": "9EB76FAC 45AF8E51"
+      }
+    ]
+  },
+  {
+    "场景": "2.1 CTR-TDES (Encryption)",
+    "Key1": "01234567 89ABCDEF",
+    "Key2": "23456789 ABCDEF01",
+    "Key3": "01234567 89ABCDEF",
+    "InitialCounterValue": "F69F2445 DF4F9B17",
+    "Plaintext": "6BC1BEE2 2E409F96 E93D7E11 7393172A \n AE2D8A57 1E03AC9C 9EB76FAC 45AF8E51",
+    "Ciphertext": "6195B9C2 C39909C5 DBDF92DA DBAD5A5D \n 1568482B F25C42C9 6D3853A8 E71B010E",
+    "Blocks": [
+      {
+        "编号": 1,
+        "InputBlock": "F69F2445 DF4F9B17",
+        "OutputBlock": "0A540720 EDD99653",
+        "TextIn": "6BC1BEE2 2E409F96",
+        "TextOut": "6195B9C2 C39909C5"
+      },
+      {
+        "编号": 2,
+        "InputBlock": "F69F2445 DF4F9B18",
+        "OutputBlock": "32E2ECCB A83E4D77",
+        "TextIn": "E93D7E11 7393172A",
+        "TextOut": "DBDF92DA DBAD5A5D"
+      },
+      {
+        "编号": 3,
+        "InputBlock": "F69F2445 DF4F9B19",
+        "OutputBlock": "BB45C27C EC5FEE55",
+        "TextIn": "AE2D8A57 1E03AC9C",
+        "TextOut": "1568482B F25C42C9"
+      },
+      {
+        "编号": 4,
+        "InputBlock": "F69F2445 DF4F9B1A",
+        "OutputBlock": "F38F3C04 A2B48F5F",
+        "TextIn": "9EB76FAC 45AF8E51",
+        "TextOut": "6D3853A8 E71B010E"
+      }
+    ]
+  },
+  {
+    "场景": "2.2 CTR-TDES (Decryption)",
+    "Key1": "01234567 89ABCDEF",
+    "Key2": "23456789 ABCDEF01",
+    "Key3": "01234567 89ABCDEF",
+    "InitialCounterValue": "F69F2445 DF4F9B17",
+    "Ciphertext": "6195B9C2 C39909C5 DBDF92DA DBAD5A5D \n 1568482B F25C42C9 6D3853A8 E71B010E",
+    "Plaintext": "6BC1BEE2 2E409F96 E93D7E11 7393172A \n AE2D8A57 1E03AC9C 9EB76FAC 45AF8E51",
+    "Blocks": [
+      {
+        "编号": 1,
+        "InputBlock": "F69F2445 DF4F9B17",
+        "OutputBlock": "0A540720 EDD99653",
+        "TextIn": "6195B9C2 C39909C5",
+        "TextOut": "6BC1BEE2 2E409F96"
+      },
+      {
+        "编号": 2,
+        "InputBlock": "F69F2445 DF4F9B18",
+        "OutputBlock": "32E2ECCB A83E4D77",
+        "TextIn": "DBDF92DA DBAD5A5D",
+        "TextOut": "E93D7E11 7393172A"
+      },
+      {
+        "编号": 3,
+        "InputBlock": "F69F2445 DF4F9B19",
+        "OutputBlock": "BB45C27C EC5FEE55",
+        "TextIn": "1568482B F25C42C9",
+        "TextOut": "AE2D8A57 1E03AC9C"
+      },
+      {
+        "编号": 4,
+        "InputBlock": "F69F2445 DF4F9B1A",
+        "OutputBlock": "F38F3C04 A2B48F5F",
+        "TextIn": "6D3853A8 E71B010E",
+        "TextOut": "9EB76FAC 45AF8E51"
+      }
+    ]
+  }
+]
